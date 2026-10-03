@@ -29,14 +29,20 @@ Data quality tests -> AUDIT log
 
 4. Generate sample data into the `inbox/` folder:
 ```
-   python make_sample_data.py
+   py make_sample_data.py
 ```
 
 5. Run the pipeline:
 ```
-   python etl_pipeline.py
+   py etl_pipeline.py
 ```
 
 ## Output
 
-Screenshot of the FINAL table and AUDIT log goes here.
+**FINAL layer: department salary summary (8 raw rows -> 4 clean rows)**
+
+![FINAL output](docs/final_output.png)
+
+**Audit log: each run records every step and 5/5 data quality tests**
+
+![Audit log](docs/audit_log.png)
