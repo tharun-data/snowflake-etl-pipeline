@@ -1,0 +1,7 @@
+inbox/
+archive/
+failed/
+logs/
+__pycache__/
+*.csv
+*.db
