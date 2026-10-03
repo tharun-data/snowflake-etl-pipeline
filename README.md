@@ -1,1 +1,0 @@
-# snowflake-etl-pipeline
