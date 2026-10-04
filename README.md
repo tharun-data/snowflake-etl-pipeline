@@ -41,8 +41,8 @@ Data quality tests -> AUDIT log
 
 **FINAL layer: department salary summary (8 raw rows -> 4 clean rows)**
 
-![FINAL output](docs/final_output.png)
+![FINAL output](final_output.png)
 
 **Audit log: each run records every step and 5/5 data quality tests**
 
-![Audit log](docs/audit_log.png)
+![Audit log](audit_log.png)
